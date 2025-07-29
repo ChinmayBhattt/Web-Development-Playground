@@ -20,3 +20,6 @@ var isTrue1 = confirm("are you exit this site")
 if(isTrue1){
     console.log("ok, this website is leave")
 }
+
+document.title = "Hey i am good"
+document.body.style.backgroundColor = 'blue'
