@@ -114,8 +114,64 @@ let obj = {
 //     console.log(i);
 // }
 
-let i = 0;
-while(i<=5){
-    console.log(i);
-    i++;
-}
+// let i = 0;
+// while(i<=5){
+//     console.log(i);
+//     i++;
+// }
+
+// function add(name) {
+//     console.log("Hi, How are you " + name);
+// }
+
+// add("Chinmay");
+
+// function sum(a, b, c =3){
+//     // console.log(a + b);
+//     return a + b + c;
+// }
+
+// result = sum(5,3);
+// result1 = sum(5);
+// console.log(result);
+// console.log(result1);
+
+// let a = prompt("Enter a number");
+// console.log("Your number is: ");
+
+
+// ------------String----------------
+
+// let a = "Chinmay";
+
+// console.log(a[0]);
+// console.log(a[1]);
+// console.log(a[2]);
+// console.log(a[3]);
+// console.log(a[4]);
+// console.log(a[5]);
+// console.log(a[6]);
+// console.log(a[7]);
+// console.log(a.length)
+
+// let real_name = "Chinmay";
+// let surname = "Bhatt";
+// console.log(real_name + " " + surname);
+// // template literals
+// console.log(`${real_name} ${surname}`);
+
+// let c = "chinmay";
+// let d = "bhatt";
+// console.log(c.toUpperCase())
+// console.log(c.toLowerCase())
+// console.log(c.slice(1, 3))
+// console.log(c.slice(1))
+// console.log(c.replace('ch', 'a'))
+// console.log(c.concat(d));
+// console.log(c.concat("bhatt"));
+
+let n = "Chinmay Bhatt";
+let new_n = n.trim("Bhatt ")
+console.log(new_n)
+console.log(n.charAt(0))
+console.log(n.indexOf("B"))
