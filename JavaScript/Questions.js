@@ -23,27 +23,61 @@
 // }
 //--------//--------//--------//--------//--------//--------//--------
 
-let random = Math.random();
-let a = prompt("Enter First Number: ");
-let c = prompt("Enter Operation: ");
-let b = prompt("Enter Second Number: ");
+// let random = Math.random();
+// let a = prompt("Enter First Number: ");
+// let c = prompt("Enter Operation: ");
+// let b = prompt("Enter Second Number: ");
 
-let obj = {
-    '+': '-',
-    '*': '+',
-    '-': '/',
-    '/': '**'
+// let obj = {
+//     '+': '-',
+//     '*': '+',
+//     '-': '/',
+//     '/': '**'
+// }
+
+    
+    
+//     if(random > 0.1){
+//         //perform correct calculation
+//         alert(`The Result is ${eval(`${a} ${c} ${b}`)}`)
+    
+//     }else{
+//         //perform wrong calculation
+    
+//         c = obj[c];
+//     }
+
+
+/*
+Q2 Business Name Generator
+
+
+Adjectives:
+
+- Crazy
+- Amazing
+- Fire
+
+Shope Name:
+Engine
+foods
+Garments
+
+Another Word:
+bros
+limited
+Hub
+*/
+
+let adjectives = {
+    names: ['Crazy', 'Amazing','Fire'],
+    shop: ['Engine', 'limited','Hub']
 }
 
-    
-    
-    if(random > 0.1){
-        //perform correct calculation
-        alert(`The Result is ${eval(`${a} ${c} ${b}`)}`)
-    
-    }else{
-        //perform wrong calculation
-    
-        c = obj[c];
-    }
+for (const key in adjectives) {
 
+        let element = adjectives[key];
+        console.log(element)
+        
+
+}

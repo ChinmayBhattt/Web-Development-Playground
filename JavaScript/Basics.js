@@ -93,12 +93,12 @@
     
 // }
 
-let obj = {
-    name: "Chinmay",
-    role: "Engineer",
-    company: "Hacker's Unity"
+// let obj = {
+//     name: "Chinmay",
+//     role: "Engineer",
+//     company: "Hacker's Unity"
     
-}
+// }
 
 // for (const key in obj) {
     
@@ -170,8 +170,99 @@ let obj = {
 // console.log(c.concat(d));
 // console.log(c.concat("bhatt"));
 
-let n = "Chinmay Bhatt";
-let new_n = n.trim("Bhatt ")
-console.log(new_n)
-console.log(n.charAt(0))
-console.log(n.indexOf("B"))
+// let n = "Chinmay Bhatt";
+// let new_n = n.trim("Bhatt ")
+// console.log(new_n)
+// console.log(n.charAt(0))
+// console.log(n.indexOf("B"))
+
+
+// let arr = [1,2,3,4,5,6];
+// arr[0] = 32
+// console.log(arr)
+// console.log(arr[4])
+// console.log(arr.length)
+// console.log(typeof arr)
+
+// let b = "Hello";
+// b[0] = "y"
+// console.log(b[0])
+
+// console.log(arr.toString()); //convert to string
+// console.log(arr.join(" and "))
+
+// let a = [1,2,3,4,5];
+// // console.log(a.pop())
+// // console.log(a)
+
+// // a.push(100)
+// // console.log(a)
+// // a.push("CB")
+// // console.log(a)
+
+
+// let b = [1,2,3,4,5];
+// b.shift()
+// console.log(b)
+// b.shift()
+// console.log(b)
+
+// b.unshift("add")
+// console.log(b)
+
+// delete b[2];
+// console.log(b)
+// console.log(b.length)
+
+// let a = [1,2,3,4];
+// let b = [5,6,7,8];
+// let c = [9,10,11,12];
+// console.log(a.concat(b,c));
+
+// let numbers = [1,2,3,4,5];
+
+// console.log(numbers.splice(0,3))
+// console.log(numbers)
+// //add
+// console.log(numbers.splice(0, 3, 33,44))
+// console.log(numbers)
+
+// let a = [1,2,3,4,5,6,7,8,9];
+
+// for (let i = 0; i < a.length; i++) {
+//     const element = a[i];
+//     console.log(element)
+    
+// }
+
+// a.forEach((value, index, array) => {
+//     console.log(value, index, array);
+// });
+
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// }
+
+// for (const key in obj) {
+//     if (Object.prototype.hasOwnProperty.call(obj, key)) {
+//         const element = obj[key];
+//         console.log(element)
+        
+//     }
+// }
+
+// for (const iterator of a) {
+//     console.log(iterator)
+// }
+
+
+let arr = [2,5,7,8,9];
+let newArr = [];
+for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
+    newArr.push(element**2);
+}
+
+console.log(newArr);
