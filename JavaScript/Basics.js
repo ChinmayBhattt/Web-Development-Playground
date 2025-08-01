@@ -259,10 +259,16 @@
 
 
 let arr = [2,5,7,8,9];
-let newArr = [];
-for (let i = 0; i < arr.length; i++) {
-    const element = arr[i];
-    newArr.push(element**2);
-}
+// let newArr = [];
+// for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     newArr.push(element**2);
+// }
 
+// console.log(newArr);
+
+let newArr = arr.map((e)=> {
+    return e**2;
+})
 console.log(newArr);
+

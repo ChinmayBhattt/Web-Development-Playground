@@ -1,3 +1,9 @@
 EcmaScript: is a standard on which javascript is based it was created to ensure that diffrent on javascript are ectually talking about the same languge
 var = global scope
 let = const are block scope
+DOM - Document Object Model
+// console chrome
+//window.document
+//window.document.body
+$0
+$0.style.backgroundColor = "red"
