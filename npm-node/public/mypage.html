@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testin Post Request</title>
+    <title>Testing post request</title>
 </head>
 <body>
+
     <script>
         async function testpost() {
-            let a = fetch("/", {method: "POST"});
+            let a = await fetch("/", {method: "PUT"})
             let b = await a.text()
             console.log(b)
+            
         }
-
         testpost()
     </script>
-
     
 </body>
 </html>
