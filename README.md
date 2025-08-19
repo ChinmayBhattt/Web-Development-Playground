@@ -1,7 +1,7 @@
 # 🌐 Full Stack Web Development Roadmap 🚀
  
 Welcome to the ultimate roadmap and resources guide for becoming a **Full Stack Web Developer**. This guide will help you go from **zero to job-ready**, with curated content, tools, and projects.
-
+ 
 ---  
 
 ## 📍 Visual Roadmap
