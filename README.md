@@ -4,7 +4,7 @@ Welcome to the ultimate roadmap and resources guide for becoming a **Full Stack 
 
 ---
 
-## 📍 Visual Roadmap
+## 📍 Visual Roadmap 
 
 ## 🧩 Full Stack Web Development Visual Roadmap
 
