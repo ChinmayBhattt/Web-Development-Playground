@@ -1,0 +1,18 @@
+https://tailwindcss.com/docs/installation/using-vite
+https://play.tailwindcss.com
+https://tailblocks.cc
+npm install -D tailwindcss
+npm install -D tailwindcss@latest
+npx tailwindcss init
+
+or
+
+1) npm install -g tailwindcss
+2) tailwindcss init
+
+file option not folder: src/input.css
+
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+
+content: ["*.html"],
+content: ["./src/**/*.{html,js}"],
