@@ -7,7 +7,7 @@ Welcome to the ultimate roadmap and resources guide for becoming a **Full Stack 
 ## 📍 Visual Roadmap 
 
 ## 🧩 Full Stack Web Development Visual Roadmap
-
+ 
 This flowchart outlines the **step-by-step journey** to become a Full Stack Web Developer. It includes frontend, backend, authentication, database, deployment, and optional AI integration—perfect for modern app builders.
 
 ```mermaid
