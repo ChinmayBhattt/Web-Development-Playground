@@ -1,0 +1,5 @@
+npm i cors
+https://www.npmjs.com/package/cors
+import cors from "cors"
+npm i body-parser
+import bodyParser from "body-parser"
